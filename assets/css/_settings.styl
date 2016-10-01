@@ -1,68 +1,37 @@
-// ---------------
-// Axis Settings
-// Check here for updates:
-// https://github.com/jenius/axis/blob/master/axis/settings.styl
-// ---------------
+@font-face
+  font-family: 'Onesize'
+  src:  url('../fonts/Onesize.woff') format('woff'),
+  url('../fonts/Onesize.svg#Onesize') format('svg'),
+  url('../fonts/Onesize.eot'),
+  url('../fonts/Onesize.eot?#iefix') format('embedded-opentype')
+  font-weight: normal
+  font-style: normal
 
 // Font stacks (add your own!)
-$helvetica-neue = "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif
-$helvetica = "Helvetica Neue", Helvetica, Arial, sans-serif
-$georgia = Georgia, Cambria, "Times New Roman", Times, serif
-$lucidia-grande = "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
-$monospace = unquote("'Bitstream Vera Sans Mono', Consolas, Courier, monospace")
-$verdana = Verdana, Geneva, sans-serif
+$onesize = "Onesize", sans-serif
+
+// colors
+$black = #000000
+$blue = #0000AA
+$brown = #AA5500
+$cyan = #00AAAA
+$gray = #555555
+$green = #00AA00
+$light-blue = #5555FF
+$light-cyan = #55FFFF
+$light-gray = #AAAAAA
+$light-green = #55FF55
+$light-magenta = #FF55FF
+$light-red = #FF5555
+$magenta = #AA00AA
+$red = #AA0000
+$white = #FFFFFF
+$yellow = #FFFF55
 
 // Default font settings
-$font-stack = $helvetica-neue
-$font-size = 16
-$font-color = #555
-
-// Colors (via http://clrs.cc - slightly modded)
-$navy     = #001F3F
-$blue     = #0074D9
-$aqua     = #7FDBFF
-$teal     = #39CCCC
-$olive    = #3D9970
-$green    = #2ECC40
-$lime     = #01FF70
-$yellow   = #FFDC00
-$orange   = #FF851B
-$red      = #D13F19
-$maroon   = #85144B
-$fuchsia  = #F012BE
-$purple   = #B10DC9
-$white    = #FFFFFF
-$silver   = #DDDDDD
-$gray     = #AAAAAA
-$black    = #222222
-
-// Use as default HTML colors
-navy    = $navy
-blue    = $blue
-aqua    = $aqua
-teal    = $teal
-olive   = $olive
-green   = $green
-lime    = $lime
-yellow  = $yellow
-orange  = $orange
-red     = $red
-maroon  = $maroon
-fuchsia = $fuchsia
-purple  = $purple
-white   = $white
-silver  = $silver
-gray    = $gray
-black   = $black
-
-// Default color
-$default-color = $blue
-
-// Text highlight color
-$highlight-color = $blue
+$font-stack = $onesize
+$font-size = 1em
+$font-color = $white
 
 // Custom image base path for axis mixins
-$img-path = '/img/'
-
-// Ligatures
-$ligatures = false
+$img-path = '/images/'
