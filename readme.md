@@ -1,4 +1,4 @@
-# guerrinha v0.1
+# cga-portfolio
 
 My point &amp; click portifolio
 
